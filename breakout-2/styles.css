@@ -1,0 +1,63 @@
+
+nav ol {
+  display: flex;
+  align-items: flex-end;
+}
+nav ol li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 2px solid blue;
+  padding: 0 20px;
+  height: 80px;
+  position: fixed;
+  background-color: lightgoldenrodyellow;
+  top: 0;
+  left: 0; 
+  right: 0;
+}
+.main-content {
+  width: 600px;
+  margin: 160px auto;
+}
+.site-footer {
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.tweet {
+  border: 1px solid black;
+  margin: 20px;
+  overflow: auto;
+}
+.tweet > img {
+  max-width: 200px;
+  float: left;
+  margin: 20px;
+}
+.tweet > p {
+  margin: 20px;
+}
+
+.tweet-footer-links ol {
+  display: flex;
+  justify-content: flex-end;
+}       
+
+.tweet-footer-links {
+  visibility: hidden;
+  /* opacity: 0; */
+}
+/* .tweet-footer-links:hover {
+  visibility: hidden;
+  /* opacity: 1; */
+/* } */
+
+.tweet:hover .tweet-footer-links {
+  visibility: visible;
+} 

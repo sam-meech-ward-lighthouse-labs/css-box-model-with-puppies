@@ -1,0 +1,28 @@
+
+/* [id, class, element] */
+/* 
+#puppy-of-the-day {
+  color: rebeccapurple;
+}
+/* [1,0,0] */
+
+/* .site-link {
+  color: green;
+}
+   */
+/* [0,70,0] */
+
+ol > li:hover {
+  color: gold;
+  font-size: 50px;
+}
+
+/* [0,0,2] */
+
+
+
+
+.highlight {
+  color: red;
+}
+/* [0,1,0] */

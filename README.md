@@ -31,19 +31,20 @@ https://i.imgur.com/Q3cUg29.gif
 
 # Breakout
 
-## position
-
 ## specificity
 
-1.
-2.
-3.
-4.
-5.
-6.
+1. `!important` (never user this)
+2. inline styles
+3. ids `#breeds`
+4. classes `.breeds`
+5. tag name `a`
+6. the order
+
+## position
 
 ## Links
 
 * Karl's lecture notes: https://github.com/jensen/css-notes/
 * Karl's breakout notes: https://github.com/jensen/csshard-notes
 * [CSS Flow Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout)
+* [CSS Combinators](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors#Combinators)
